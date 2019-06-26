@@ -1,0 +1,13 @@
+﻿# .gitignore 文件格式
+#  *.a                      #忽略以a结尾的文件
+# !core.a                  #跟踪core.a
+#  /config                  #忽略根目录下的 config文件，但 /abc/config 不会被忽略
+#  logs/                    #忽略logs目录
+# doc/*.pyc                #忽略doc目录下所有以pyc结尾的文件，但不包括 doc/abc/*.pyc
+#  /www/*
+# !/www/base/              这两行表示只跟踪根目录下的www中的base目录
+*
+!.gitignore
+
+
+
